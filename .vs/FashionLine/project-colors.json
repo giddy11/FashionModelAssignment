@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "36242d47-dfef-48fe-aff9-9db294f376ca": {
+      "ProjectGuid": "36242d47-dfef-48fe-aff9-9db294f376ca",
+      "DisplayName": "FashionBusinessTesting",
+      "ColorIndex": 0
+    },
+    "a904c436-f352-48c0-9433-f0365247f6e6": {
+      "ProjectGuid": "a904c436-f352-48c0-9433-f0365247f6e6",
+      "DisplayName": "FashionLine",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "18b64d2c-9883-4f6a-8b93-5f8776cd162a": {
+      "ProjectGuid": "18b64d2c-9883-4f6a-8b93-5f8776cd162a",
+      "DisplayName": "FashionLineNugget",
+      "ColorIndex": 2
+    },
+    "08b4bb99-ddb9-410e-b330-0bde2905ff4f": {
+      "ProjectGuid": "08b4bb99-ddb9-410e-b330-0bde2905ff4f",
+      "DisplayName": "FashionLine.DB",
+      "ColorIndex": 3
+    },
+    "1ea00084-de89-49d5-a421-a988014b3862": {
+      "ProjectGuid": "1ea00084-de89-49d5-a421-a988014b3862",
+      "DisplayName": "FashionLine.Model",
+      "ColorIndex": 4
+    },
+    "40411e45-a0b1-47a8-869e-34cd75f17e9f": {
+      "ProjectGuid": "40411e45-a0b1-47a8-869e-34cd75f17e9f",
+      "DisplayName": "FashionLine.Model",
+      "ColorIndex": 5
+    },
+    "42110b6d-c4eb-4222-b6cd-372ef31ab161": {
+      "ProjectGuid": "42110b6d-c4eb-4222-b6cd-372ef31ab161",
+      "DisplayName": "FashionBusinessTesting",
+      "ColorIndex": 6
+    },
+    "a9bfcf60-5d31-4fc1-89e1-444aec49d790": {
+      "ProjectGuid": "a9bfcf60-5d31-4fc1-89e1-444aec49d790",
+      "DisplayName": "FashionLine.DB",
+      "ColorIndex": 7
+    },
+    "1898b1e0-73aa-4937-8b9a-e0592036d1b7": {
+      "ProjectGuid": "1898b1e0-73aa-4937-8b9a-e0592036d1b7",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}
