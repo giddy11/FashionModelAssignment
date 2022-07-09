@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FashionLine.Model.Enums
 {
-    internal class Class1
+    public enum Role
     {
+        Manager,
+        Accountant,
+        DeliveryMan
     }
 }
