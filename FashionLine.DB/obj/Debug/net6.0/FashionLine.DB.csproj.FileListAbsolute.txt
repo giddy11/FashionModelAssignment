@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\FashionLine.DB.deps.json
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\FashionLine.DB.dll
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\ref\FashionLine.DB.dll
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\FashionLine.DB.pdb
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\FashionLine.Model.dll
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\bin\Debug\net6.0\FashionLine.Model.pdb
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.AssemblyInfo.cs
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.csproj.CopyComplete
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.dll
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\ref\FashionLine.DB.dll
+C:\Users\user\Desktop\cypherJorney\Phase II\FashionLine\FashionLine.DB\obj\Debug\net6.0\FashionLine.DB.pdb

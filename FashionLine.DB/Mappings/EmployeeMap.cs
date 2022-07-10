@@ -12,7 +12,7 @@ namespace FashionLine.DB.Mappings
             Map(employ => employ.LastName);
             Map(employ => employ.Location);
             Map(employ => employ.PhoneNumber);
-            //HasOne(employ => employ.Guarantor);
+            References(employee => employee.Guarantor);
             Map(employ => employ.EmployeeRole).CustomType<Role>();
         }
     }

@@ -12,7 +12,7 @@ namespace FashionLine.DB.Mappings
             Map(Order => Order.DeliveryDate);
             Map(Order => Order.DeliveryAddress);
             References(Order => Order.Customer);
-            References(Order => Order.Owner);
+            //References(Order => Order.Owner);
             HasMany(Order => Order.Clothes);
             HasOne(Order => Order.PaymentInfo).PropertyRef(paymentInfo => paymentInfo.Order);                       //because the payInfo is dependent on Order
 

@@ -4,7 +4,7 @@ using FluentNHibernate.Mapping;
 
 namespace FashionLine.DB.Mappings
 {
-    public class ClotheMap : ClassMap<Clothe>
+    public class ClotheMap : BaseEntityMap<Clothe>
     {
         public ClotheMap()
         {

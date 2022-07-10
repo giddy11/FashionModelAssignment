@@ -15,7 +15,7 @@ namespace FashionLine.DB.Mappings
             Map(guarantor => guarantor.LastName);
             Map(guarantor => guarantor.Address);
             Map(guarantor => guarantor.PhoneNumber);
-            HasOne(guarantor => guarantor.Employee).PropertyRef(employee => employee.Guarantor);
+            HasOne(guarantor => guarantor.Employee).PropertyRef(employe => employe.Guarantor);
         }
     }
 }
