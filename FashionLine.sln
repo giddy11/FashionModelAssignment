@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FashionBusinessTesting", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FashionLine.DB", "FashionLine.DB\FashionLine.DB.csproj", "{A9BFCF60-5D31-4FC1-89E1-444AEC49D790}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalManagement", "..\..\Evaluation2.2\HospitalManagement\HospitalManagement.csproj", "{AE15A33C-882C-4008-A10D-44F33BB12061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question1", "..\..\Live Evaluation02 - Gideon Edoghotu\Question1\Question1.csproj", "{3F1F5AA3-545E-4AD8-B85D-9835AD23D749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{A9BFCF60-5D31-4FC1-89E1-444AEC49D790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9BFCF60-5D31-4FC1-89E1-444AEC49D790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9BFCF60-5D31-4FC1-89E1-444AEC49D790}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE15A33C-882C-4008-A10D-44F33BB12061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE15A33C-882C-4008-A10D-44F33BB12061}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE15A33C-882C-4008-A10D-44F33BB12061}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE15A33C-882C-4008-A10D-44F33BB12061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1F5AA3-545E-4AD8-B85D-9835AD23D749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1F5AA3-545E-4AD8-B85D-9835AD23D749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1F5AA3-545E-4AD8-B85D-9835AD23D749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1F5AA3-545E-4AD8-B85D-9835AD23D749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

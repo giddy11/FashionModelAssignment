@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FashionLine.DB.Repositories
 {
-    internal interface Interface1
+    public interface IRepository<T>
     {
+        void Add(T entity);
+        void Update(T entity);
+        T GetById(int id);
+        void Remove(T entity);
     }
 }

@@ -8,7 +8,7 @@ namespace FashionLine.DB.Mappings
         {
             Map(payment => payment.Price);
             Map(payment => payment.AmountPaid);
-            Map(payment => payment.Balance);
+            //Map(payment => payment.Balance);
             References(payment => payment.Order);
         }
     }

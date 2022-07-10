@@ -8,24 +8,44 @@ namespace FashionLine.DB.Repositories
 {
     public abstract class Repository<T> : IRepository<T> where T : class
     {
-        public T Add(T entity)
+        public void Add(T entity)
         {
-            throw new NotImplementedException();
+            using (var session = FluentNHibernateHelper.OpenSession())
+            {
+                using var transaction = session.BeginTransaction();
+                session.Save(entity);
+                transaction.Commit();
+            }
         }
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            using (var session = FluentNHibernateHelper.OpenSession())
+            {
+                var item1 = session.Get<T>(id);
+                return item1;
+            }
         }
 
         public void Remove(T entity)
         {
-            throw new NotImplementedException();
+            using (var session = FluentNHibernateHelper.OpenSession())
+            {
+                using var transaction = session.BeginTransaction();
+                session.Delete(entity);
+                transaction.Commit();
+            }
         }
 
-        public T Update(T entity)
+        public void Update(T entity)
         {
-            throw new NotImplementedException();
+            using (var session = FluentNHibernateHelper.OpenSession())
+            {
+                using var transaction = session.BeginTransaction();
+                session.Update(entity);
+                session.Save(entity);
+                transaction.Commit();
+            }
         }
     }
 }

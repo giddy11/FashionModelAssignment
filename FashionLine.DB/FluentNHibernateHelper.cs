@@ -19,7 +19,7 @@ namespace FashionLine.DB
         public static ISessionFactory SessionFactory => _sessionFactory ??
             Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString
                 (_connectionString))
-            .Mappings(m => m.FluentMappings.AddFromAssemblyOf<CustomerMap>())
+            .Mappings(m => m.FluentMappings.AddFromAssemblyOf<PaymentInformationMap>())
             .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
             .BuildSessionFactory();
 
