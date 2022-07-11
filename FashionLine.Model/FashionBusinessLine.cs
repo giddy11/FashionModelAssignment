@@ -1,6 +1,6 @@
 ﻿namespace FashionLine.Model
 {
-    //Name of business logo
+    
     public class FashionBusinessLine : BaseEntity
     {
         public virtual string? Name { get; set; }

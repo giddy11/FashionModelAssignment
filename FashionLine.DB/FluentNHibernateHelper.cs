@@ -1,4 +1,5 @@
 ﻿using FashionLine.DB.Mappings;
+using FashionLine.Model;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using NHibernate;
@@ -19,7 +20,7 @@ namespace FashionLine.DB
         public static ISessionFactory SessionFactory => _sessionFactory ??
             Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString
                 (_connectionString))
-            .Mappings(m => m.FluentMappings.AddFromAssemblyOf<PaymentInformationMap>())
+            .Mappings(m => m.FluentMappings.AddFromAssemblyOf<CustomerMap>())
             .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
             .BuildSessionFactory();
 
@@ -28,7 +29,7 @@ namespace FashionLine.DB
             return SessionFactory.OpenSession();
         }
 
-        private static string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\Desktop\FashionLineDB.mdf;Integrated Security=True;Connect Timeout=30";
+        private static string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\user\Desktop\DataBasesLinks\FashionLineDB.mdf;Integrated Security=True;Connect Timeout=30";
 
     }
 }

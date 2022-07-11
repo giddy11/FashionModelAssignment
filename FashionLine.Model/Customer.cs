@@ -2,6 +2,10 @@
 {
     public class Customer : BaseEntity
     {
+        //public Customer()
+        //{
+        //    Orders = new List<Order>();
+        //}
         public virtual string? FirstName { get; set; }
         public virtual string? LastName { get; set; }
         public virtual string? Location { get; set; }

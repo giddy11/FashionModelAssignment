@@ -50,7 +50,17 @@
       "ProjectGuid": "1898b1e0-73aa-4937-8b9a-e0592036d1b7",
       "DisplayName": "ConsoleApp1",
       "ColorIndex": 8
+    },
+    "ae15a33c-882c-4008-a10d-44f33bb12061": {
+      "ProjectGuid": "ae15a33c-882c-4008-a10d-44f33bb12061",
+      "DisplayName": "HospitalManagement",
+      "ColorIndex": 9
+    },
+    "3f1f5aa3-545e-4ad8-b85d-9835ad23d749": {
+      "ProjectGuid": "3f1f5aa3-545e-4ad8-b85d-9835ad23d749",
+      "DisplayName": "Question1",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 11
 }
