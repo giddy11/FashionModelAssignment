@@ -11,5 +11,7 @@
         public virtual string? Location { get; set; }
         public virtual string? PhoneNumber { get; set; }
         public virtual List<Order>? Orders { get; set; }
+        public virtual List<FashionBusinessLine>? FashionBusinessLines { get; set; }
+
     }
 }

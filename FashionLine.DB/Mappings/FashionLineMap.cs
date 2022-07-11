@@ -10,7 +10,7 @@ namespace FashionLine.DB.Mappings
             Map(fash => fash.Name);
             Map(fash => fash.Location);
             HasMany(fash => fash.Employees);
-            HasMany(fash => fash.Customers);
+            HasManyToMany(fash => fash.Customers);
             HasMany(fash => fash.ClotheInventory);
         }
     }

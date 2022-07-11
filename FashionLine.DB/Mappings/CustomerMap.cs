@@ -11,6 +11,7 @@ namespace FashionLine.DB.Mappings
             Map(cust => cust.Location);
             Map(cust => cust.PhoneNumber);
             HasMany(cust => cust.Orders);
+            HasManyToMany(cust => cust.FashionBusinessLines);
         }
     }
 }
