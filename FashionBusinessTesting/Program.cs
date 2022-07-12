@@ -10,7 +10,6 @@ FluentNHibernateHelper.OpenSession();
 var fashionLineRepo = new FashionBusinessLineRepository();
 var employeeRepo = new EmployeeRepository();
 var customerRepo = new CustomerRepository();
-var customers = new List<Customer>();
 
 
 
@@ -22,10 +21,10 @@ var fashion1 = new FashionBusinessLine() {
     Employees = new List<Employee>()
 };
 
-//fashionLineRepo.Add(fashion1);
+fashionLineRepo.Add(fashion1);
 #endregion
 
-#region EMPLOYEES
+#region ADD EMPLOYEES
 var employee1 = new Employee()
 {
     FirstName = "Etim",
@@ -56,9 +55,12 @@ var employee3 = new Employee()
     Guarantor = new Guarantor() { FirstName = "Mr. Peter", LastName = "Elijah", Address = "Ndidi", PhoneNumber = "08124789975" }
 };
 
-employeeRepo.Add(employee1);
-employeeRepo.Add(employee2);
-employeeRepo.Add(employee3);
+var employees = new List<Employee>() { employee1, employee2, employee3 };
+
+foreach (var item in employees)
+{
+    employeeRepo.Add(item);
+}
 #endregion
 
 
@@ -67,7 +69,8 @@ employeeRepo.Add(employee3);
 var customer1 = new Customer() { FirstName = "Gideon", LastName = "Edoghotu", Location = "Bayelsa", PhoneNumber = "08037063820" };
 var customer2 = new Customer() { FirstName = "Dozie", LastName = "Peter", Location = "Bayelsa1", PhoneNumber = "08038063820" };
 
-customers = new List<Customer>() { customer1, customer2 };
+
+var customers = new List<Customer>() { customer1, customer2 };
 
 foreach (var item in customers)
 {
