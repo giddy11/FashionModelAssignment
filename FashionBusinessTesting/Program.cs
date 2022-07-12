@@ -27,7 +27,7 @@ fashionLineRepo.Add(fashion1);
 #region ADD EMPLOYEES
 var employee1 = new Employee()
 {
-    FirstName = "Etim",
+    FirstName = "Victory",
     LastName = "Archibong",
     EmployeeRole = FashionLine.Model.Enums.Role.Manager,
     Location = "Bayelsa4",

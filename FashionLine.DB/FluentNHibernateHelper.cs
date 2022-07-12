@@ -21,7 +21,7 @@ namespace FashionLine.DB
             Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString
                 (_connectionString))
             .Mappings(m => m.FluentMappings.AddFromAssemblyOf<CustomerMap>())
-            .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
+            //.ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
             .BuildSessionFactory();
 
         public static ISession OpenSession()

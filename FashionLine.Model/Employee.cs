@@ -8,7 +8,7 @@ namespace FashionLine.Model
         public virtual string? LastName { get; set;}
         public virtual string? Location { get; set; }
         public virtual string? PhoneNumber { get; set; }
-        public virtual Guarantor? Guarantor { get; set; }
+        public virtual Guarantor Guarantor { get; set; }
         public virtual Role EmployeeRole { get; set; }
     }
 }
